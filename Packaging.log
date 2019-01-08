@@ -1,0 +1,3065 @@
+2018-12-05 07:25:20 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ffd4640ed50; archive(resolved)='<IDEArchive: 0x7ffd45722ee0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ffd4640ed50; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ffd46475cc0; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7ffd4600a380; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7ffd457529a0; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7ffd455a2280; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7ffd4558ce30; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7ffd462cc0e0; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7ffd4600fcf0; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7ffd46268040; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='<IDEProvisioningBasicTeam: 0x7ffd455602f0; teamID='XFSV3Y32V6', teamName='Raincloud Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7ffd462b6c60; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd444987b0>', team='(null)'>
+	<IDEDistributionContext: 0x7ffd456de3d0; archive = '<IDEArchive: 0x7ffd45722ee0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ffd4640ed50>
+2018-12-05 07:25:20 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-12-05 07:25:20 +0000  Processing step: IDEDistributionCopyItemStep
+2018-12-05 07:25:20 +0000  Running /usr/bin/ditto '-V' '/Users/apple/Library/Developer/Xcode/Archives/2018-12-05/ouiselect 2018-12-5 下午3.24.xcarchive/Products/Applications/OuiSelect.app' '/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app'
+2018-12-05 07:25:20 +0000  >>> Copying /Users/apple/Library/Developer/Xcode/Archives/2018-12-05/ouiselect 2018-12-5 下午3.24.xcarchive/Products/Applications/OuiSelect.app 
+2018-12-05 07:25:20 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-12-05 07:25:20 +0000  15561 bytes for ./_CodeSignature/CodeResources
+2018-12-05 07:25:20 +0000  copying file ./LaunchImage@2x.png ... 
+2018-12-05 07:25:20 +0000  70888 bytes for ./LaunchImage@2x.png
+2018-12-05 07:25:20 +0000  copying file ./AppIcon20x20@2x.png ... 
+2018-12-05 07:25:20 +0000  1761 bytes for ./AppIcon20x20@2x.png
+copying file ./en.lproj/InfoPlist.strings ... 
+2018-12-05 07:25:20 +0000  42 bytes for ./en.lproj/InfoPlist.strings
+2018-12-05 07:25:20 +0000  copying file ./en.lproj/MainStoryboard.storyboardc/rJP-cv-5EY-view-Ejq-Yo-0Ch.nib ... 
+2018-12-05 07:25:20 +0000  1902 bytes for ./en.lproj/MainStoryboard.storyboardc/rJP-cv-5EY-view-Ejq-Yo-0Ch.nib
+copying file ./en.lproj/MainStoryboard.storyboardc/rb3-5i-68v-view-qtK-rG-KFX.nib ... 
+2018-12-05 07:25:20 +0000  6769 bytes for ./en.lproj/MainStoryboard.storyboardc/rb3-5i-68v-view-qtK-rG-KFX.nib
+2018-12-05 07:25:20 +0000  copying file ./en.lproj/MainStoryboard.storyboardc/UIViewController-2.nib ... 
+2018-12-05 07:25:20 +0000  1657 bytes for ./en.lproj/MainStoryboard.storyboardc/UIViewController-2.nib
+2018-12-05 07:25:20 +0000  copying file ./en.lproj/MainStoryboard.storyboardc/hotel.nib ... 
+2018-12-05 07:25:20 +0000  1344 bytes for ./en.lproj/MainStoryboard.storyboardc/hotel.nib
+copying file ./en.lproj/MainStoryboard.storyboardc/2-view-3.nib ... 
+2018-12-05 07:25:20 +0000  5150 bytes for ./en.lproj/MainStoryboard.storyboardc/2-view-3.nib
+copying file ./en.lproj/MainStoryboard.storyboardc/UITabBarController-Jmb-oh-gId.nib ... 
+2018-12-05 07:25:20 +0000  2990 bytes for ./en.lproj/MainStoryboard.storyboardc/UITabBarController-Jmb-oh-gId.nib
+copying file ./en.lproj/MainStoryboard.storyboardc/eZ4-Wn-GfD-view-Bfd-va-qYR.nib ... 
+2018-12-05 07:25:20 +0000  1902 bytes for ./en.lproj/MainStoryboard.storyboardc/eZ4-Wn-GfD-view-Bfd-va-qYR.nib
+copying file ./en.lproj/MainStoryboard.storyboardc/9fY-jZ-I2O-view-PCx-7d-fZt.nib ... 
+2018-12-05 07:25:20 +0000  1902 bytes for ./en.lproj/MainStoryboard.storyboardc/9fY-jZ-I2O-view-PCx-7d-fZt.nib
+2018-12-05 07:25:20 +0000  copying file ./en.lproj/MainStoryboard.storyboardc/Info.plist ... 
+2018-12-05 07:25:20 +0000  328 bytes for ./en.lproj/MainStoryboard.storyboardc/Info.plist
+2018-12-05 07:25:20 +0000  copying file ./OuiSelect ... 
+2018-12-05 07:25:20 +0000  890816 bytes for ./OuiSelect
+copying file ./pin.png ... 
+2018-12-05 07:25:20 +0000  1036 bytes for ./pin.png
+copying file ./FreeHelp.png ... 
+2018-12-05 07:25:20 +0000  6343 bytes for ./FreeHelp.png
+2018-12-05 07:25:20 +0000  copying file ./AppIcon20x20@3x.png ... 
+2018-12-05 07:25:20 +0000  2721 bytes for ./AppIcon20x20@3x.png
+copying file ./LaunchImage-568h@2x.png ... 
+2018-12-05 07:25:20 +0000  84656 bytes for ./LaunchImage-568h@2x.png
+copying file ./AppIcon60x60@2x.png ... 
+2018-12-05 07:25:20 +0000  5636 bytes for ./AppIcon60x60@2x.png
+copying file ./imageBrandLogo.png ... 
+2018-12-05 07:25:20 +0000  6182 bytes for ./imageBrandLogo.png
+copying file ./AppIcon29x29@2x.png ... 
+2018-12-05 07:25:20 +0000  2636 bytes for ./AppIcon29x29@2x.png
+copying file ./LaunchImage-800-667h@2x.png ... 
+2018-12-05 07:25:20 +0000  102021 bytes for ./LaunchImage-800-667h@2x.png
+2018-12-05 07:25:20 +0000  copying file ./AppIcon40x40@3x.png ... 
+2018-12-05 07:25:20 +0000  5636 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon40x40@2x.png ... 
+2018-12-05 07:25:20 +0000  3927 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon29x29@3x.png ... 
+2018-12-05 07:25:20 +0000  4141 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon60x60@3x.png ... 
+2018-12-05 07:25:20 +0000  8200 bytes for ./AppIcon60x60@3x.png
+copying file ./orange.png ... 
+2018-12-05 07:25:20 +0000  225 bytes for ./orange.png
+copying file ./Assets.car ... 
+2018-12-05 07:25:20 +0000  253160 bytes for ./Assets.car
+copying file ./LaunchImage-800-Portrait-736h@3x.png ... 
+2018-12-05 07:25:20 +0000  188782 bytes for ./LaunchImage-800-Portrait-736h@3x.png
+copying file ./LaunchImage-700@2x.png ... 
+2018-12-05 07:25:20 +0000  70888 bytes for ./LaunchImage-700@2x.png
+copying file ./RoomCall.png ... 
+2018-12-05 07:25:20 +0000  3966 bytes for ./RoomCall.png
+2018-12-05 07:25:20 +0000  copying file ./LaunchImage-700-568h@2x.png ... 
+84656 bytes for ./LaunchImage-700-568h@2x.png
+copying file ./logohome.png ... 
+2018-12-05 07:25:20 +0000  238098 bytes for ./logohome.png
+2018-12-05 07:25:20 +0000  copying file ./select.png ... 
+2018-12-05 07:25:20 +0000  447 bytes for ./select.png
+copying file ./CallOut.png ... 
+2018-12-05 07:25:20 +0000  5342 bytes for ./CallOut.png
+copying file ./line.png ... 
+2018-12-05 07:25:20 +0000  170 bytes for ./line.png
+copying file ./LaunchImage.png ... 
+2018-12-05 07:25:20 +0000  30434 bytes for ./LaunchImage.png
+copying file ./embedded.mobileprovision ... 
+2018-12-05 07:25:21 +0000  8167 bytes for ./embedded.mobileprovision
+copying file ./LaunchImage-800-Landscape-736h@3x.png ... 
+2018-12-05 07:25:21 +0000  118857 bytes for ./LaunchImage-800-Landscape-736h@3x.png
+2018-12-05 07:25:21 +0000  copying file ./white.png ... 
+222 bytes for ./white.png
+2018-12-05 07:25:21 +0000  copying file ./back.png ... 
+855 bytes for ./back.png
+copying file ./Info.plist ... 
+2018-12-05 07:25:21 +0000  1896 bytes for ./Info.plist
+2018-12-05 07:25:21 +0000  copying file ./PkgInfo ... 
+2018-12-05 07:25:21 +0000  8 bytes for ./PkgInfo
+2018-12-05 07:25:21 +0000  
+2018-12-05 07:25:21 +0000  2018-12-05 07:25:21 +0000  /usr/bin/ditto exited with 0
+
+2018-12-05 07:25:21 +0000  
+2018-12-05 07:25:21 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-12-05 07:25:21 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-12-05 07:25:21 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-12-05 07:25:21 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-12-05 07:25:21 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root' '--json' '/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool-json-filepath-wVOpC0' '--compile-bitcode' '--output' '/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/IDEIPAProcessor.AppThinning.Gas' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-12-05 07:25:21 +0000  ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
+2018-12-05 07:25:21 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:98: warning: assigned but unused variable - temp
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:109: warning: assigned but unused variable - e
+2018-12-05 07:25:21 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-12-05 07:25:21 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-12-05 07:25:21 +0000  OS X 10.13.3 17D47
+2018-12-05 07:25:21 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/", "LOGNAME"=>"apple", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/apple", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.HD1vfKgrT7/Render", "USER"=>"apple", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.RrD0pXZ25T/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.10524", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x2:0x35", "CA_DEBUG_TRANSACTIONS"=>"1"}
+ARGV: ["/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root", "--json", "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool-json-filepath-wVOpC0", "--compile-bitcode", "--output", "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/IDEIPAProcessor.AppThinning.Gas", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-12-05 07:25:21 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-12-05 07:25:21 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-12-05 07:25:21 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-12-05 07:25:21 +0000  Scanning IPA...
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/AppIcon20x20@2x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 946 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/AppIcon20x20@3x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 947 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/AppIcon29x29@2x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 948 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/AppIcon29x29@3x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 949 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/AppIcon40x40@2x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 950 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/AppIcon40x40@3x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 951 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/AppIcon60x60@2x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 952 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/AppIcon60x60@3x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 953 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/Assets.car
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 954 exit 0
+    Stdout:
+        Mac OS X bill of materials (BOM) file
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/CallOut.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 955 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/FreeHelp.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 956 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/Info.plist
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 957 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/LaunchImage-568h@2x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 958 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/LaunchImage-700-568h@2x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 959 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/LaunchImage-700@2x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 960 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/LaunchImage-800-667h@2x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 961 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/LaunchImage-800-Landscape-736h@3x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 962 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/LaunchImage-800-Portrait-736h@3x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 963 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/LaunchImage.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 964 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/LaunchImage@2x.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 965 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 966 exit 0
+    Stdout:
+        Mach-O universal binary with 2 architectures: [arm_v7:Mach-O executable arm_v7] [arm64:Mach-O 64-bit executable arm64]
+        /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect (for architecture armv7):	Mach-O executable arm_v7
+        /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect (for architecture arm64):	Mach-O 64-bit executable arm64
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect
+2018-12-05 07:25:21 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 967 exit 0
+    Stdout:
+        Architectures in the fat file: /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect are: armv7 arm64 
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect
+2018-12-05 07:25:21 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 968 exit 0
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+           MH_MAGIC     ARM         V7  0x00     EXECUTE    23       2820   NOUNDEFS DYLDLINK TWOLEVEL PIE
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    23       3400   NOUNDEFS DYLDLINK TWOLEVEL PIE
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect
+2018-12-05 07:25:21 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 970 exit 0
+    Stdout:
+        /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+           MH_MAGIC     ARM         V7  0x00     EXECUTE    23       2820   NOUNDEFS DYLDLINK TWOLEVEL PIE
+        Load command 0
+              cmd LC_SEGMENT
+          cmdsize 56
+          segname __PAGEZERO
+           vmaddr 0x00000000
+           vmsize 0x00004000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 1
+              cmd LC_SEGMENT
+          cmdsize 600
+          segname __TEXT
+           vmaddr 0x00004000
+           vmsize 0x00010000
+          fileoff 0
+         filesize 65536
+          maxprot r-x
+         initprot r-x
+           nsects 8
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x000087e8
+              size 0x00007fd8
+            offset 18408
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __picsymbolstub4
+           segname __TEXT
+              addr 0x000107c0
+              size 0x00000400
+            offset 51136
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 16 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x00010bc0
+              size 0x00000324
+            offset 52160
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x00010ee4
+              size 0x0000190d
+            offset 52964
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x000127f1
+              size 0x00000c5c
+            offset 59377
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x0001344d
+              size 0x000000d8
+            offset 62541
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x00013525
+              size 0x00000a88
+            offset 62757
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __ustring
+           segname __TEXT
+              addr 0x00013fae
+              size 0x00000052
+            offset 65454
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 2
+              cmd LC_SEGMENT
+          cmdsize 1212
+          segname __DATA
+           vmaddr 0x00014000
+           vmsize 0x00004000
+          fileoff 65536
+         filesize 16384
+          maxprot rw-
+         initprot rw-
+           nsects 1
+2018-12-05 07:25:21 +0000  7
+            flags (none)
+        Section
+          sectname __nl_symbol_ptr
+           segname __DATA
+              addr 0x00014000
+              size 0x0000004c
+            offset 65536
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 64 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0001404c
+              size 0x00000100
+            offset 65612
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 83 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __cfstring
+           segname __DATA
+              addr 0x0001414c
+              size 0x00000650
+            offset 65868
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0001479c
+              size 0x0000000c
+            offset 67484
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_nlclslist
+           segname __DATA
+              addr 0x000147a8
+              size 0x00000004
+            offset 67496
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x000147ac
+              size 0x0000001c
+            offset 67500
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x000147c8
+              size 0x00000008
+            offset 67528
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x000147d0
+              size 0x00000fec
+            offset 67536
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x000157bc
+              size 0x00000230
+            offset 71612
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protorefs
+           segname __DATA
+              addr 0x000159ec
+              size 0x00000008
+            offset 72172
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x000159f4
+              size 0x0000003c
+            offset 72180
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x00015a30
+              size 0x00000008
+            offset 72240
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         r
+2018-12-05 07:25:21 +0000  eserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x00015a38
+              size 0x00000070
+            offset 72248
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x00015aa8
+              size 0x000000a0
+            offset 72360
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x00015b48
+              size 0x000001c0
+            offset 72520
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __common
+           segname __DATA
+              addr 0x00015d08
+              size 0x00000009
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bss
+           segname __DATA
+              addr 0x00015d14
+              size 0x00000138
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 3
+              cmd LC_SEGMENT
+          cmdsize 124
+          segname __LLVM
+           vmaddr 0x00018000
+           vmsize 0x00054000
+          fileoff 81920
+         filesize 344064
+          maxprot rw-
+         initprot rw-
+           nsects 1
+            flags NORELOC
+        Section
+          sectname __bundle
+           segname __LLVM
+              addr 0x00018000
+              size 0x0005049d
+            offset 81920
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT
+          cmdsize 56
+          segname __LINKEDIT
+           vmaddr 0x0006c000
+           vmsize 0x00008000
+          fileoff 425984
+         filesize 23168
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 5
+                    cmd LC_DYLD_INFO_ONLY
+                cmdsize 48
+             rebase_off 425984
+            rebase_size 384
+               bind_off 426368
+              bind_size 1304
+          weak_bind_off 0
+         weak_bind_size 0
+          lazy_bind_off 427672
+         lazy_bind_size 1604
+             export_off 429276
+            export_size 28
+        Load command 6
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 429576
+           nsyms 99
+          stroff 431352
+         strsize 2076
+        Load command 7
+                    cmd LC_DYSYMTAB
+                cmdsize 80
+              ilocalsym 0
+              nlocalsym 1
+             iextdefsym 1
+             nextdefsym 1
+              iundefsym 2
+              nundefsym 97
+                 tocoff 0
+                   ntoc 0
+              modtaboff 0
+                nmodtab 0
+           extrefsymoff 0
+            nextrefsyms 0
+         indirectsymoff 430764
+          nindirectsyms 147
+              extreloff 0
+                nextrel 0
+              locreloff 0
+                nlocrel 0
+        Load command 8
+                  cmd LC_LOAD_DYLINKER
+              cmdsize 28
+                 name /usr/lib/dyld (offset 12)
+        Load command 9
+             cmd LC_UUID
+         cmdsize 24
+            uuid CB6DEAD6-2039-350F-AF01-92ECC1FFB1B7
+        Load command 10
+              cmd LC_VERSION_MIN_IPHONEOS
+          cmdsize 16
+          version 8.0
+              sdk 11.4
+        Load command 11
+              cmd LC_SOURCE_VERSION
+          cmdsize 
+2018-12-05 07:25:21 +0000  16
+          version 0.0
+        Load command 12
+               cmd LC_MAIN
+           cmdsize 24
+          entryoff 20051
+         stacksize 0
+        Load command 13
+                  cmd LC_ENCRYPTION_INFO
+              cmdsize 20
+             cryptoff 16384
+            cryptsize 49152
+              cryptid 0
+        Load command 14
+                  cmd LC_LOAD_DYLIB
+              cmdsize 76
+                 name /System/Library/Frameworks/UIKit.framework/UIKit (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 3698.54.4
+        compatibility version 1.0.0
+        Load command 15
+                  cmd LC_LOAD_DYLIB
+              cmdsize 84
+                 name /System/Library/Frameworks/Foundation.framework/Foundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1452.23.0
+        compatibility version 300.0.0
+        Load command 16
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1161.21.0
+        compatibility version 64.0.0
+        Load command 17
+                  cmd LC_LOAD_DYLIB
+              cmdsize 52
+                 name /usr/lib/libobjc.A.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 228.0.0
+        compatibility version 1.0.0
+        Load command 18
+                  cmd LC_LOAD_DYLIB
+              cmdsize 52
+                 name /usr/lib/libSystem.B.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1252.50.4
+        compatibility version 1.0.0
+        Load command 19
+                  cmd LC_LOAD_DYLIB
+              cmdsize 92
+                 name /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1452.23.0
+        compatibility version 150.0.0
+        Load command 20
+              cmd LC_FUNCTION_STARTS
+          cmdsize 16
+          dataoff 429304
+         datasize 216
+        Load command 21
+              cmd LC_DATA_IN_CODE
+          cmdsize 16
+          dataoff 429520
+         datasize 56
+        Load command 22
+              cmd LC_CODE_SIGNATURE
+          cmdsize 16
+          dataoff 433440
+         datasize 15712
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect
+2018-12-05 07:25:21 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 972 exit 0
+    Stdout:
+        /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/OuiSelect:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    23       3400   NOUNDEFS DYLDLINK TWOLEVEL PIE
+        Load command 0
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __PAGEZERO
+           vmaddr 0x0000000000000000
+           vmsize 0x0000000100000000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 1
+              cmd LC_SEGMENT_64
+          cmdsize 872
+          segname __TEXT
+           vmaddr 0x0000000100000000
+           vmsize 0x0000000000010000
+          fileoff 0
+         filesize 65536
+          maxprot r-x
+         initprot r-x
+           nsects 10
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x00000001000045bc
+              size 0x0000000000008338
+            offset 17852
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __stubs
+           segname __TEXT
+              addr 0x000000010000c8f4
+              size 0x00000000000002a0
+            offset 51444
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 12 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x000000010000cb94
+              size 0x00000000000002b8
+            offset 52116
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x000000010000ce4c
+              size 0x0000000000001897
+            offset 52812
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x000000010000e6e3
+              size 0x0000000000000acc
+            offset 59107
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x000000010000f1af
+              size 0x00000000000000b9
+            offset 61871
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x000000010000f268
+              size 0x0000000000000ac6
+            offset 62056
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __TEXT
+              addr 0x000000010000fd30
+              size 0x0000000000000040
+            offset 64816
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __ustring
+           segname __TEXT
+              addr 0x000000010000fd70
+    
+2018-12-05 07:25:21 +0000            size 0x0000000000000052
+            offset 64880
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __unwind_info
+           segname __TEXT
+              addr 0x000000010000fdc4
+              size 0x000000000000023c
+            offset 64964
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 2
+              cmd LC_SEGMENT_64
+          cmdsize 1432
+          segname __DATA
+           vmaddr 0x0000000100010000
+           vmsize 0x0000000000004000
+          fileoff 65536
+         filesize 16384
+          maxprot rw-
+         initprot rw-
+           nsects 17
+            flags (none)
+        Section
+          sectname __got
+           segname __DATA
+              addr 0x0000000100010000
+              size 0x0000000000000088
+            offset 65536
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 56 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000000100010088
+              size 0x00000000000001c0
+            offset 65672
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 73 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __cfstring
+           segname __DATA
+              addr 0x0000000100010248
+              size 0x0000000000000ca0
+            offset 66120
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0000000100010ee8
+              size 0x0000000000000018
+            offset 69352
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_nlclslist
+           segname __DATA
+              addr 0x0000000100010f00
+              size 0x0000000000000008
+            offset 69376
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x0000000100010f08
+              size 0x0000000000000030
+            offset 69384
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x0000000100010f38
+              size 0x0000000000000008
+            offset 69432
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x0000000100010f40
+              size 0x0000000000001dd0
+            offset 69440
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x0000000100012d10
+              size 0x0000000000000418
+            offset 77072
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+ 
+2018-12-05 07:25:21 +0000         Section
+          sectname __objc_protorefs
+           segname __DATA
+              addr 0x0000000100013128
+              size 0x0000000000000008
+            offset 78120
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x0000000100013130
+              size 0x0000000000000078
+            offset 78128
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x00000001000131a8
+              size 0x0000000000000010
+            offset 78248
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x00000001000131b8
+              size 0x0000000000000070
+            offset 78264
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x0000000100013228
+              size 0x0000000000000140
+            offset 78376
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x0000000100013368
+              size 0x00000000000002d0
+            offset 78696
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __common
+           segname __DATA
+              addr 0x0000000100013638
+              size 0x0000000000000011
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bss
+           segname __DATA
+              addr 0x0000000100013650
+              size 0x0000000000000178
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 3
+              cmd LC_SEGMENT_64
+          cmdsize 152
+          segname __LLVM
+           vmaddr 0x0000000100014000
+           vmsize 0x000000000004c000
+          fileoff 81920
+         filesize 311296
+          maxprot rw-
+         initprot rw-
+           nsects 1
+            flags NORELOC
+        Section
+          sectname __bundle
+           segname __LLVM
+              addr 0x0000000100014000
+              size 0x000000000004b487
+            offset 81920
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __LINKEDIT
+           vmaddr 0x0000000100060000
+           vmsize 0x0000000000008000
+          fileoff 393216
+         filesize 22464
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 5
+                    cmd LC_DYLD_INFO_ONLY
+                cmdsize 48
+             rebase_off 393216
+            rebase_size 368
+               bind_off 393584
+              bind_size 1248
+          weak_bind_off 0
+         weak_bind_size 0
+          lazy_bind_off 394832
+         lazy_bind_size 1416
+             export_off 396248
+            export_size 32
+        Load comma
+2018-12-05 07:25:21 +0000  nd 6
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 396472
+           nsyms 91
+          stroff 398444
+         strsize 1928
+        Load command 7
+                    cmd LC_DYSYMTAB
+                cmdsize 80
+              ilocalsym 0
+              nlocalsym 1
+             iextdefsym 1
+             nextdefsym 1
+              iundefsym 2
+              nundefsym 89
+                 tocoff 0
+                   ntoc 0
+              modtaboff 0
+                nmodtab 0
+           extrefsymoff 0
+            nextrefsyms 0
+         indirectsymoff 397928
+          nindirectsyms 129
+              extreloff 0
+                nextrel 0
+              locreloff 0
+                nlocrel 0
+        Load command 8
+                  cmd LC_LOAD_DYLINKER
+              cmdsize 32
+                 name /usr/lib/dyld (offset 12)
+        Load command 9
+             cmd LC_UUID
+         cmdsize 24
+            uuid 59F25C23-DC03-38F1-BEA8-96CE6F5923B6
+        Load command 10
+              cmd LC_VERSION_MIN_IPHONEOS
+          cmdsize 16
+          version 8.0
+              sdk 11.4
+        Load command 11
+              cmd LC_SOURCE_VERSION
+          cmdsize 16
+          version 0.0
+        Load command 12
+               cmd LC_MAIN
+           cmdsize 24
+          entryoff 19732
+         stacksize 0
+        Load command 13
+                  cmd LC_ENCRYPTION_INFO_64
+              cmdsize 24
+             cryptoff 16384
+            cryptsize 49152
+              cryptid 0
+                  pad 0
+        Load command 14
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/UIKit.framework/UIKit (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 3698.54.4
+        compatibility version 1.0.0
+        Load command 15
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/Foundation.framework/Foundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1452.23.0
+        compatibility version 300.0.0
+        Load command 16
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1161.21.0
+        compatibility version 64.0.0
+        Load command 17
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libobjc.A.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 228.0.0
+        compatibility version 1.0.0
+        Load command 18
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libSystem.B.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1252.50.4
+        compatibility version 1.0.0
+        Load command 19
+                  cmd LC_LOAD_DYLIB
+              cmdsize 96
+                 name /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1452.23.0
+        compatibility version 150.0.0
+        Load command 20
+              cmd LC_FUNCTION_STARTS
+          cmdsize 16
+          dataoff 396280
+         datasize 192
+        Load command 21
+              cmd LC_DATA_IN_CODE
+          cmdsize 16
+          dataoff 396472
+         datasize 0
+        Load command 22
+              cmd LC_CODE_SIGNATURE
+          cmdsize 16
+          dataoff 400384
+         datasize 15296
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/PkgInfo
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 974 exit 0
+    Stdout:
+        ASCII text, with no line terminators
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/RoomCall.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 975 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/_CodeSignature/CodeResources
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 976 exit 0
+    Stdout:
+        XML 1.0 document text, ASCII text
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/back.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 977 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/embedded.mobileprovision
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 978 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/InfoPlist.strings
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 979 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/2-view-3.nib
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 981 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/9fY-jZ-I2O-view-PCx-7d-fZt.nib
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 982 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/Info.plist
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 983 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/UITabBarController-Jmb-oh-gId.nib
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 984 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/UIViewController-2.nib
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 985 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/eZ4-Wn-GfD-view-Bfd-va-qYR.nib
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 986 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/hotel.nib
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 987 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/rJP-cv-5EY-view-Ejq-Yo-0Ch.nib
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 988 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/rb3-5i-68v-view-qtK-rG-KFX.nib
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 989 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/imageBrandLogo.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 990 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/line.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 991 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/logohome.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 992 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/orange.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 993 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/pin.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 994 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/select.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 995 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/white.png
+2018-12-05 07:25:21 +0000      /usr/bin/file exited with pid 996 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-12-05 07:25:21 +0000  Complete LinkageGraph:
+    OuiSelect.app/OuiSelect armv7 ->
+    
+    OuiSelect.app/OuiSelect arm64 ->
+2018-12-05 07:25:21 +0000  Validating IPA structure...
+2018-12-05 07:25:22 +0000  Compiling bitcode...
+2018-12-05 07:25:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk -o /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect --generate-dsym /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect.dSYM --strip-swift-symbols /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect
+2018-12-05 07:25:22 +0000    Compiling bitcode for armv7...
+    Compiling armv7 bitcode in 'OuiSelect'
+2018-12-05 07:25:22 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 1035 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect" 
+        -= Output =-
+        Non-fat file: /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect is architecture: armv7
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect" 
+        -= Output =-
+        UUID: CB6DEAD6-2039-350F-AF01-92ECC1FFB1B7 (armv7) /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect" "-extract" "__LLVM" "__bundle" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/OuiSelectvLjEMi/OuiSelect.armv7.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempZzG8I5
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempZzG8I5
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempZzG8I5
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempZzG8I5
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios8.0.0" "-emit-obj" "
+2018-12-05 07:25:22 +0000  -disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "4" "-o" "4.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempZzG8I5
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios4.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "5" "-o" "5.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempZzG8I5
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "armv7" "-execute" "-ios_version_min" "8.0.0" "-e" "_main" "-executable_path" "/Users/apple/Library/Developer/Xcode/DerivedData/ouiselect-axidesymxipjjwcgcgzudlwdtsqa/Build/Intermediates.noindex/ArchiveIntermediates/ouiselect/IntermediateBuildFilesPath/ouiselect.build/Release-iphoneos/ouiselect.build/Objects-normal/armv7/OuiSelect" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk" "-sdk_version" "11.4.0" "-filelist" "/private/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/OuiSelectvLjEMi/OuiSelect.armv7.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/OuiSelectvLjEMi/OuiSelect.armv7.out" 
+        -= Output =-
+        Exited with 0
+        
+2018-12-05 07:25:22 +0000          Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect" 
+        -= Output =-
+        UUID: A9D50DFA-B657-30BB-8AE8-4D8C2A56A272 (armv7) /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect" "-o" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+2018-12-05 07:25:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect
+2018-12-05 07:25:22 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 1053 exit 0
+    Stdout:
+        /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect [armv7, 0.010511 seconds]:
+    
+    Stderr:
+2018-12-05 07:25:22 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect
+2018-12-05 07:25:22 +0000      /usr/bin/file exited with pid 1054 exit 0
+    Stdout:
+        Mach-O dSYM companion file arm_v7
+    
+    Stderr:
+2018-12-05 07:25:22 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect
+2018-12-05 07:25:22 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 1055 exit 0
+    Stdout:
+        Non-fat file: /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect is architecture: armv7
+    
+    Stderr:
+2018-12-05 07:25:22 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect
+2018-12-05 07:25:22 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 1056 exit 0
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+           MH_MAGIC     ARM         V7  0x00        DSYM     7       2776 0x00000000
+    
+    Stderr:
+2018-12-05 07:25:22 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect
+2018-12-05 07:25:22 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 1058 exit 0
+    Stdout:
+        /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/armv7/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+           MH_MAGIC     ARM         V7  0x00        DSYM     7       2776 0x00000000
+        Load command 0
+             cmd LC_UUID
+         cmdsize 24
+            uuid A9D50DFA-B657-30BB-8AE8-4D8C2A56A272
+        Load command 1
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 4096
+           nsyms 256
+          stroff 7168
+         strsize 3532
+        Load command 2
+              cmd LC_SEGMENT
+          cmdsize 56
+          segname __PAGEZERO
+           vmaddr 0x00000000
+           vmsize 0x00004000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 3
+              cmd LC_SEGMENT
+          cmdsize 600
+          segname __TEXT
+           vmaddr 0x00004000
+           vmsize 0x00010000
+          fileoff 0
+         filesize 0
+          maxprot r-x
+         initprot r-x
+           nsects 8
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x000087f0
+              size 0x00007fd0
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __picsymbolstub4
+           segname __TEXT
+              addr 0x000107c0
+              size 0x00000400
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 16 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x00010bc0
+              size 0x00000324
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x00010ee4
+              size 0x0000190d
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x000127f1
+              size 0x00000c5c
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x0001344d
+              size 0x000000d8
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x00013525
+              size 0x00000a88
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __ustring
+           segname __TEXT
+              addr 0x00013fae
+              size 0x00000052
+            offset 0
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reser
+2018-12-05 07:25:22 +0000  ved2 0
+        Load command 4
+              cmd LC_SEGMENT
+          cmdsize 1212
+          segname __DATA
+           vmaddr 0x00014000
+           vmsize 0x00004000
+          fileoff 0
+         filesize 0
+          maxprot rw-
+         initprot rw-
+           nsects 17
+            flags (none)
+        Section
+          sectname __nl_symbol_ptr
+           segname __DATA
+              addr 0x00014000
+              size 0x0000004c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 64 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0001404c
+              size 0x00000100
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 83 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __cfstring
+           segname __DATA
+              addr 0x0001414c
+              size 0x00000650
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0001479c
+              size 0x0000000c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_nlclslist
+           segname __DATA
+              addr 0x000147a8
+              size 0x00000004
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x000147ac
+              size 0x0000001c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x000147c8
+              size 0x00000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x000147d0
+              size 0x00000fec
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x000157bc
+              size 0x00000230
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protorefs
+           segname __DATA
+              addr 0x000159ec
+              size 0x00000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x000159f4
+              size 0x0000003c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x00
+2018-12-05 07:25:22 +0000  015a30
+              size 0x00000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x00015a38
+              size 0x00000070
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x00015aa8
+              size 0x000000a0
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x00015b48
+              size 0x000001c0
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __common
+           segname __DATA
+              addr 0x00015d08
+              size 0x00000009
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bss
+           segname __DATA
+              addr 0x00015d14
+              size 0x00000138
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 5
+              cmd LC_SEGMENT
+          cmdsize 56
+          segname __LINKEDIT
+           vmaddr 0x00018000
+           vmsize 0x00002000
+          fileoff 4096
+         filesize 6604
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 6
+              cmd LC_SEGMENT
+          cmdsize 804
+          segname __DWARF
+           vmaddr 0x0001a000
+           vmsize 0x00008000
+          fileoff 12288
+         filesize 32623
+          maxprot rwx
+         initprot rw-
+           nsects 11
+            flags (none)
+        Section
+          sectname __debug_line
+           segname __DWARF
+              addr 0x0001a000
+              size 0x00002de1
+            offset 12288
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_pubnames
+           segname __DWARF
+              addr 0x0001cde1
+              size 0x00000b63
+            offset 24033
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_aranges
+           segname __DWARF
+              addr 0x0001d944
+              size 0x000000a8
+            offset 26948
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_info
+           segname __DWARF
+              addr 0x0001d9ec
+              size 0x00001172
+            offset 27116
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_ranges
+           segname __DWARF
+              addr 0x0001eb5e
+              size 0x00001068
+            offset 31582
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_abbr
+2018-12-05 07:25:22 +0000  ev
+           segname __DWARF
+              addr 0x0001fbc6
+              size 0x000000bf
+            offset 35782
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_str
+           segname __DWARF
+              addr 0x0001fc85
+              size 0x00000bc2
+            offset 35973
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_names
+           segname __DWARF
+              addr 0x00020847
+              size 0x000016b0
+            offset 38983
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_namespac
+           segname __DWARF
+              addr 0x00021ef7
+              size 0x00000024
+            offset 44791
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_types
+           segname __DWARF
+              addr 0x00021f1b
+              size 0x00000030
+            offset 44827
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_objc
+           segname __DWARF
+              addr 0x00021f4b
+              size 0x00000024
+            offset 44875
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+    
+    Stderr:
+2018-12-05 07:25:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk -o /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect --generate-dsym /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect.dSYM --strip-swift-symbols /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect
+2018-12-05 07:25:22 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'OuiSelect'
+2018-12-05 07:25:23 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 1060 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect" 
+        -= Output =-
+        Non-fat file: /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect" 
+        -= Output =-
+        UUID: 59F25C23-DC03-38F1-BEA8-96CE6F5923B6 (arm64) /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect" "-extract" "__LLVM" "__bundle" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/OuiSelectdcvbGB/OuiSelect.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempHkMo56
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempHkMo56
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempHkMo56
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempHkMo56
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "4" 
+2018-12-05 07:25:23 +0000  "-o" "4.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempHkMo56
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "5" "-o" "5.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/tempHkMo56
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "8.0.0" "-e" "_main" "-executable_path" "/Users/apple/Library/Developer/Xcode/DerivedData/ouiselect-axidesymxipjjwcgcgzudlwdtsqa/Build/Intermediates.noindex/ArchiveIntermediates/ouiselect/IntermediateBuildFilesPath/ouiselect.build/Release-iphoneos/ouiselect.build/Objects-normal/arm64/OuiSelect" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk" "-sdk_version" "11.4.0" "-filelist" "/private/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/OuiSelectdcvbGB/OuiSelect.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/OuiSelectdcvbGB/OuiSelect.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/
+2018-12-05 07:25:23 +0000  folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect" 
+        -= Output =-
+        UUID: BD3FAE09-5634-3A46-8467-FF10399FCB9A (arm64) /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect" "-o" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect
+2018-12-05 07:25:23 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 1078 exit 0
+    Stdout:
+        /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect [arm64, 0.006759 seconds]:
+    
+    Stderr:
+2018-12-05 07:25:23 +0000  /usr/bin/file -b -- /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect
+2018-12-05 07:25:23 +0000      /usr/bin/file exited with pid 1079 exit 0
+    Stdout:
+        Mach-O 64-bit dSYM companion file arm64
+    
+    Stderr:
+2018-12-05 07:25:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect
+2018-12-05 07:25:23 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 1080 exit 0
+    Stdout:
+        Non-fat file: /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect is architecture: arm64
+    
+    Stderr:
+2018-12-05 07:25:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect
+2018-12-05 07:25:23 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 1081 exit 0
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       3448 0x00000000
+    
+    Stderr:
+2018-12-05 07:25:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect
+2018-12-05 07:25:23 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 1083 exit 0
+    Stdout:
+        /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/ipatool20181205-938-yh3vsq/thinned/arm64/Payload/OuiSelect.app/OuiSelect.dSYM/Contents/Resources/DWARF/OuiSelect:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       3448 0x00000000
+        Load command 0
+             cmd LC_UUID
+         cmdsize 24
+            uuid BD3FAE09-5634-3A46-8467-FF10399FCB9A
+        Load command 1
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 4096
+           nsyms 223
+          stroff 7664
+         strsize 3024
+        Load command 2
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __PAGEZERO
+           vmaddr 0x0000000000000000
+           vmsize 0x0000000100000000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 3
+              cmd LC_SEGMENT_64
+          cmdsize 872
+          segname __TEXT
+           vmaddr 0x0000000100000000
+           vmsize 0x0000000000010000
+          fileoff 0
+         filesize 0
+          maxprot r-x
+         initprot r-x
+           nsects 10
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x00000001000045bc
+              size 0x0000000000008338
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __stubs
+           segname __TEXT
+              addr 0x000000010000c8f4
+              size 0x00000000000002a0
+            offset 0
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 12 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x000000010000cb94
+              size 0x00000000000002b8
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x000000010000ce4c
+              size 0x0000000000001897
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x000000010000e6e3
+              size 0x0000000000000acc
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x000000010000f1af
+              size 0x00000000000000b9
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x000000010000f268
+              size 0x0000000000000ac6
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __TEXT
+              addr 0x000000010000fd30
+              size 0x0000000000000040
+            offset 0
+   
+2018-12-05 07:25:23 +0000            align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __ustring
+           segname __TEXT
+              addr 0x000000010000fd70
+              size 0x0000000000000052
+            offset 0
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __unwind_info
+           segname __TEXT
+              addr 0x000000010000fdc4
+              size 0x000000000000023c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT_64
+          cmdsize 1432
+          segname __DATA
+           vmaddr 0x0000000100010000
+           vmsize 0x0000000000004000
+          fileoff 0
+         filesize 0
+          maxprot rw-
+         initprot rw-
+           nsects 17
+            flags (none)
+        Section
+          sectname __got
+           segname __DATA
+              addr 0x0000000100010000
+              size 0x0000000000000088
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 56 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000000100010088
+              size 0x00000000000001c0
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 73 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __cfstring
+           segname __DATA
+              addr 0x0000000100010248
+              size 0x0000000000000ca0
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0000000100010ee8
+              size 0x0000000000000018
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_nlclslist
+           segname __DATA
+              addr 0x0000000100010f00
+              size 0x0000000000000008
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x0000000100010f08
+              size 0x0000000000000030
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x0000000100010f38
+              size 0x0000000000000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x0000000100010f40
+              size 0x0000000000001dd0
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x0000000100012d10
+              size
+2018-12-05 07:25:23 +0000   0x0000000000000418
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protorefs
+           segname __DATA
+              addr 0x0000000100013128
+              size 0x0000000000000008
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x0000000100013130
+              size 0x0000000000000078
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x00000001000131a8
+              size 0x0000000000000010
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x00000001000131b8
+              size 0x0000000000000070
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x0000000100013228
+              size 0x0000000000000140
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x0000000100013368
+              size 0x00000000000002d0
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __common
+           segname __DATA
+              addr 0x0000000100013638
+              size 0x0000000000000011
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bss
+           segname __DATA
+              addr 0x0000000100013650
+              size 0x0000000000000178
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 5
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __LINKEDIT
+           vmaddr 0x0000000100014000
+           vmsize 0x0000000000002000
+          fileoff 4096
+         filesize 6592
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 6
+              cmd LC_SEGMENT_64
+          cmdsize 952
+          segname __DWARF
+           vmaddr 0x0000000100016000
+           vmsize 0x0000000000006000
+          fileoff 12288
+         filesize 23751
+          maxprot rwx
+         initprot rw-
+           nsects 11
+            flags (none)
+        Section
+          sectname __debug_line
+           segname __DWARF
+              addr 0x0000000100016000
+              size 0x0000000000002087
+            offset 12288
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_pubnames
+           segname __DWARF
+              addr 0x0000000100018087
+              size 0x00000000000009d7
+            offset 20615
+             alig
+2018-12-05 07:25:23 +0000  n 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_aranges
+           segname __DWARF
+              addr 0x0000000100018a5e
+              size 0x00000000000000f0
+            offset 23134
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_info
+           segname __DWARF
+              addr 0x0000000100018b4e
+              size 0x0000000000001464
+            offset 23374
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_ranges
+           segname __DWARF
+              addr 0x0000000100019fb2
+              size 0x0000000000000090
+            offset 28594
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_abbrev
+           segname __DWARF
+              addr 0x000000010001a042
+              size 0x00000000000000a9
+            offset 28738
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_str
+           segname __DWARF
+              addr 0x000000010001a0eb
+              size 0x0000000000000984
+            offset 28907
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_names
+           segname __DWARF
+              addr 0x000000010001aa6f
+              size 0x00000000000011e0
+            offset 31343
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_namespac
+           segname __DWARF
+              addr 0x000000010001bc4f
+              size 0x0000000000000024
+            offset 35919
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_types
+           segname __DWARF
+              addr 0x000000010001bc73
+              size 0x0000000000000030
+            offset 35955
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_objc
+           segname __DWARF
+              addr 0x000000010001bca3
+              size 0x0000000000000024
+            offset 36003
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+    
+    Stderr:
+2018-12-05 07:25:23 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/IDEIPAProcessor.AppThinning.Gas/universal
+  Copying OuiSelect.app output payload directory
+2018-12-05 07:25:23 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:363: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-12-05 07:25:23 +0000    Copying .dSYM files to /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/IDEIPAProcessor.AppThinning.Gas/universal/dSYMs
+  Copying .symbols files to /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/IDEIPAProcessor.AppThinning.Gas/universal/Symbols
+2018-12-05 07:25:23 +0000  2018-12-05 07:25:23 +0000  
+
+2018-12-05 07:25:23 +0000  
+2018-12-05 07:25:23 +0000  
+2018-12-05 07:25:23 +0000  2018-12-05 07:25:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+
+2018-12-05 07:25:23 +0000  
+2018-12-05 07:25:23 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2887;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2887;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2887;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+        "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app/Assets.car"
+    );
+    universalIPA =     {
+        path = "/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/IDEIPAProcessor.AppThinning.Gas/universal";
+    };
+}
+2018-12-05 07:25:23 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-12-05 07:25:23 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-12-05 07:25:23 +0000  Processing step: IDEDistributionSymbolsStep
+2018-12-05 07:25:23 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-12-05 07:25:23 +0000  Processing step: IDEDistributionAppThinningStep
+2018-12-05 07:25:23 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-12-05 07:25:23 +0000  Processing step: IDEDistributionODRStep
+2018-12-05 07:25:23 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-12-05 07:25:23 +0000  Running /usr/bin/xattr '-crs' '/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app'
+2018-12-05 07:25:23 +0000  2018-12-05 07:25:23 +0000  
+
+2018-12-05 07:25:23 +0000  /usr/bin/xattr exited with 0
+2018-12-05 07:25:23 +0000  2018-12-05 07:25:23 +0000  
+
+2018-12-05 07:25:23 +0000  Processing step: IDEDistributionCodesignStep
+2018-12-05 07:25:23 +0000  Entitlements for <IDEDistributionItem: 0x7ffd46425430 'tw.raincloud.ouiselect' '<DVTFilePath:0x7ffd4459bd90:'/Users/apple/Library/Developer/Xcode/Archives/2018-12-05/ouiselect 2018-12-5 下午3.24.xcarchive/Products/Applications/OuiSelect.app'>'>: {
+    "application-identifier" = "XFSV3Y32V6.tw.raincloud.ouiselect";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = XFSV3Y32V6;
+    "get-task-allow" = 0;
+}
+2018-12-05 07:25:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffd46425430 'tw.raincloud.ouiselect' '<DVTFilePath:0x7ffd4459bd90:'/Users/apple/Library/Developer/Xcode/Archives/2018-12-05/ouiselect 2018-12-5 下午3.24.xcarchive/Products/Applications/OuiSelect.app'>'> to: /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/entitlementsvw6mSh
+2018-12-05 07:25:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '87C2FDEBF02DF7D0627A0C35E88040B2FEBB6007' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/entitlementsvw6mSh' '/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app'
+2018-12-05 07:25:24 +0000  /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root/Payload/OuiSelect.app: signed app bundle with Mach-O universal (armv7 arm64) [tw.raincloud.ouiselect]
+2018-12-05 07:25:24 +0000  2018-12-05 07:25:24 +0000  
+
+2018-12-05 07:25:24 +0000  
+2018-12-05 07:25:24 +0000  2018-12-05 07:25:24 +0000  /usr/bin/codesign exited with 0
+
+2018-12-05 07:25:24 +0000  
+2018-12-05 07:25:24 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-12-05 07:25:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-12-05 07:25:24 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-12-05 07:25:24 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root' '/var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Packages/ouiselect.ipa'
+2018-12-05 07:25:24 +0000  >>> Copying /var/folders/zy/vv5m7cv502q2g4_dgxj3dn_c0000gn/T/XcodeDistPipeline.PIk/Root 
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/_CodeSignature/CodeResources ... 
+2018-12-05 07:25:24 +0000  15561 bytes for ./Payload/OuiSelect.app/_CodeSignature/CodeResources
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/LaunchImage@2x.png ... 
+2018-12-05 07:25:24 +0000  70888 bytes for ./Payload/OuiSelect.app/LaunchImage@2x.png
+copying file ./Payload/OuiSelect.app/AppIcon20x20@2x.png ... 
+2018-12-05 07:25:24 +0000  1761 bytes for ./Payload/OuiSelect.app/AppIcon20x20@2x.png
+copying file ./Payload/OuiSelect.app/en.lproj/InfoPlist.strings ... 
+2018-12-05 07:25:24 +0000  42 bytes for ./Payload/OuiSelect.app/en.lproj/InfoPlist.strings
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/rJP-cv-5EY-view-Ejq-Yo-0Ch.nib ... 
+2018-12-05 07:25:24 +0000  1902 bytes for ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/rJP-cv-5EY-view-Ejq-Yo-0Ch.nib
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/rb3-5i-68v-view-qtK-rG-KFX.nib ... 
+2018-12-05 07:25:24 +0000  6769 bytes for ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/rb3-5i-68v-view-qtK-rG-KFX.nib
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/UIViewController-2.nib ... 
+1657 bytes for ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/UIViewController-2.nib
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/hotel.nib ... 
+2018-12-05 07:25:24 +0000  1344 bytes for ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/hotel.nib
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/2-view-3.nib ... 
+2018-12-05 07:25:24 +0000  5150 bytes for ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/2-view-3.nib
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/UITabBarController-Jmb-oh-gId.nib ... 
+2018-12-05 07:25:24 +0000  2990 bytes for ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/UITabBarController-Jmb-oh-gId.nib
+copying file ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/eZ4-Wn-GfD-view-Bfd-va-qYR.nib ... 
+2018-12-05 07:25:24 +0000  1902 bytes for ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/eZ4-Wn-GfD-view-Bfd-va-qYR.nib
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/9fY-jZ-I2O-view-PCx-7d-fZt.nib ... 
+2018-12-05 07:25:24 +0000  1902 bytes for ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/9fY-jZ-I2O-view-PCx-7d-fZt.nib
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/Info.plist ... 
+2018-12-05 07:25:24 +0000  328 bytes for ./Payload/OuiSelect.app/en.lproj/MainStoryboard.storyboardc/Info.plist
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/OuiSelect ... 
+2018-12-05 07:25:24 +0000  231520 bytes for ./Payload/OuiSelect.app/OuiSelect
+copying file ./Payload/OuiSelect.app/pin.png ... 
+2018-12-05 07:25:24 +0000  1036 bytes for ./Payload/OuiSelect.app/pin.png
+copying file ./Payload/OuiSelect.app/FreeHelp.png ... 
+2018-12-05 07:25:24 +0000  6343 bytes for ./Payload/OuiSelect.app/FreeHelp.png
+copying file ./Payload/OuiSelect.app/AppIcon20x20@3x.png ... 
+2018-12-05 07:25:24 +0000  2721 bytes for ./Payload/OuiSelect.app/AppIcon20x20@3x.png
+copying file ./Payload/OuiSelect.app/LaunchImage-568h@2x.png ... 
+2018-12-05 07:25:24 +0000  84656 bytes for ./Payload/OuiSelect.app/LaunchImage-568h@2x.png
+copying file ./Payload/OuiSelect.app/AppIcon60x60@2x.png ... 
+2018-12-05 07:25:24 +0000  5636 bytes for ./Payload/OuiSelect.app/AppIcon60x60@2x.png
+copying file ./Payload/OuiSelect.app/imageBrandLogo.png ... 
+2018-12-05 07:25:24 +0000  6182 bytes for ./Payload/OuiSelect.app/imageBrandLogo.png
+copying file ./Payload/OuiSelect.app/AppIcon29x29@2x.png ... 
+2018-12-05 07:25:24 +0000  2636 bytes for ./Payload/OuiSelect.app/AppIcon29x29@2x.png
+copying file ./Payload/OuiSelect.app/LaunchImage-800-667h@2x.png ... 
+2018-12-05 07:25:24 +0000  102021 bytes for ./Payload/OuiSelect.app/LaunchImage-800-667h@2x.png
+copying file ./Payload/OuiSelect.app/AppIcon40x40@3x.png ... 
+2018-12-05 07:25:24 +0000  5636 bytes for ./Payload/OuiSelect.app/AppIcon40x40@3x.png
+copying file ./Payload/OuiSelect.app/AppIcon40x40@2x.png ... 
+2018-12-05 07:25:24 +0000  3927 bytes for ./Payload/OuiSelect.app/AppIcon40x40@2x.png
+copying file ./Payload/OuiSelect.app/AppIcon29x29@3x.png ... 
+4141 bytes for ./Payload/OuiSelect.app/AppIcon29x29@3x.png
+copying file ./Payload/OuiSelect.app/AppIcon60x60@3x.png ... 
+2018-12-05 07:25:24 +0000  8200 bytes for ./Payload/OuiSelect.app/AppIcon60x60@3x.png
+copying file ./Payload/OuiSelect.app/orange.png ... 
+2018-12-05 07:25:24 +0000  225 bytes for ./Payload/OuiSelect.app/orange.png
+copying file ./Payload/OuiSelect.app/Assets.car ... 
+2018-12-05 07:25:24 +0000  253160 bytes for ./Payload/OuiSelect.app/Assets.car
+copying file ./Payload/OuiSelect.app/LaunchImage-800-Portrait-736h@3x.png ... 
+2018-12-05 07:25:24 +0000  188782 bytes for ./Payload/OuiSelect.app/LaunchImage-800-Portrait-736h@3x.png
+copying file ./Payload/OuiSelect.app/LaunchImage-700@2x.png ... 
+2018-12-05 07:25:24 +0000  70888 bytes for ./Payload/OuiSelect.app/LaunchImage-700@2x.png
+copying file ./Payload/OuiSelect.app/RoomCall.png ... 
+2018-12-05 07:25:24 +0000  3966 bytes for ./Payload/OuiSelect.app/RoomCall.png
+copying file ./Payload/OuiSelect.app/LaunchImage-700-568h@2x.png ... 
+2018-12-05 07:25:24 +0000  84656 bytes for ./Payload/OuiSelect.app/LaunchImage-700-568h@2x.png
+copying file ./Payload/OuiSelect.app/logohome.png ... 
+2018-12-05 07:25:24 +0000  238098 bytes for ./Payload/OuiSelect.app/logohome.png
+copying file ./Payload/OuiSelect.app/select.png ... 
+2018-12-05 07:25:24 +0000  447 bytes for ./Payload/OuiSelect.app/select.png
+copying file ./Payload/OuiSelect.app/CallOut.png ... 
+2018-12-05 07:25:24 +0000  5342 bytes for ./Payload/OuiSelect.app/CallOut.png
+copying file ./Payload/OuiSelect.app/line.png ... 
+170 bytes for ./Payload/OuiSelect.app/line.png
+2018-12-05 07:25:24 +0000  copying file ./Payload/OuiSelect.app/LaunchImage.png ... 
+2018-12-05 07:25:24 +0000  30434 bytes for ./Payload/OuiSelect.app/LaunchImage.png
+copying file ./Payload/OuiSelect.app/embedded.mobileprovision ... 
+2018-12-05 07:25:24 +0000  8186 bytes for ./Payload/OuiSelect.app/embedded.mobileprovision
+copying file ./Payload/OuiSelect.app/LaunchImage-800-Landscape-736h@3x.png ... 
+2018-12-05 07:25:24 +0000  118857 bytes for ./Payload/OuiSelect.app/LaunchImage-800-Landscape-736h@3x.png
+copying file ./Payload/OuiSelect.app/white.png ... 
+2018-12-05 07:25:24 +0000  222 bytes for ./Payload/OuiSelect.app/white.png
+copying file ./Payload/OuiSelect.app/back.png ... 
+2018-12-05 07:25:24 +0000  855 bytes for ./Payload/OuiSelect.app/back.png
+copying file ./Payload/OuiSelect.app/Info.plist ... 
+2018-12-05 07:25:24 +0000  4715 bytes for ./Payload/OuiSelect.app/Info.plist
+copying file ./Payload/OuiSelect.app/PkgInfo ... 
+2018-12-05 07:25:24 +0000  8 bytes for ./Payload/OuiSelect.app/PkgInfo
+2018-12-05 07:25:24 +0000  
+2018-12-05 07:25:24 +0000  2018-12-05 07:25:24 +0000  /usr/bin/ditto exited with 0
+
+2018-12-05 07:25:24 +0000  2018-12-05 07:25:24 +0000  
+
+2018-12-05 07:25:24 +0000  Processing step: IDEDistributionCreateManifestStep
